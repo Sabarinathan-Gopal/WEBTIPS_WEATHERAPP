@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./total_section.css">   
+    <title>Document</title>
+</head>
+<body id="total-body">
+    <div class = first-container>
+        <div class = content-container>
+            <div class="city">
+                <div class="city-image"> 
+                    <div Id="city-seperate-image" class="city-images">
+                    </div>                       
+                </div>          
+                <div class="city-option">
+                    <div class="total-city-option">
+                        <input  list="city-options" id="city-option" value="Nome" class="city-optionbox"/> 
+                        <datalist id="city-options" name="city-options" >
+                        </datalist>
+                    </div>
+                    <div class="total-city-date">
+                        <div class="city-time" name="time" id="time">
+                            <div class="time-current">
+                            <span Id="current-time" class="current-time error-validation">10:10</span><span class="subscript-value">:</span><span Id="subscript-seconds" class="subscript-value error-validation">44 </span><span class="subscript-value"> </span><img Id="time-state" class="time-now" src="./Assets/HTML_&_CSS/General_Images_&_Icons/amState.svg">                                                                            
+                            </div>                       
+                        </div> 
+                        <div class="date-log">
+                            <span Id="date-log" class="date-log1 error-validation" >01-Mar-2020</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="temp-humidity">
+                <div class="temperature">
+                    <div class="celsius-farenheit">
+                        <div class="celsius">
+                            <div class="temp-title"><span class="temp-style">Temp °C</span></div> 
+                            <div class="temp-value"><span Id="temperature-celsius" class="value-style error-validation">25</span><p>&nbsp;</p><span class="value-style1" id="value-style1">°C</span></div> 
+                        </div>
+                        <div class="farenheit">
+                            <div  class="temp-title"><span class="temp-style">Temp °F</span></div> 
+                            <div  class="temp-value"><span Id="temperature-farenheit" class="value-style error-validation">78</span><p>&nbsp;</p><span class="value-style2" id="value-style2">°F</span></div> 
+                    </div> 
+                </div>
+                </div>
+                <div class="divline">
+                    <div class="temp-divline"></div> 
+                    <div class="temps-humidity"></div>
+                   <div class="humidity-divline"></div>                     
+                </div>
+                <div class="humidity-precipitation">
+                    <div class="humidity">
+                        <div class="humidity-title"><span class="temp-style">Humidity </span></div> 
+                        <div class="humidity-value"><span Id="humidity-value" class="value-style error-validation">26 %</span></div> 
+                    </div>
+                    <div class="precipitation">
+                        <div class="humidity-title"><span class="temp-style">Precipitation </span></div> 
+                        <div class="humidity-value"><span span Id="precipitation-value" class="value-style error-validation">0 % </span></div> 
+                    </div>
+                </div>
+            </div>
+            <div class="daily-temp">
+                <div class="daily-time">
+                    <div class="time-log">
+                        <p>Now</p>
+                    </div>
+                    <div class="currentlog">
+                        <p>|</p>
+                    </div>
+                    <div class="weather-imgs">
+                        <img Id="current-image" class="weather-img" src="./Assets/HTML_&_CSS/Weather_Icons/cloudyIcon.svg">
+                    </div>
+                    <div class="time-actual">
+                        <p Id="timecurrent" class="error-validation" >6</p>
+                    </div>
+                </div>
+                <div class="daily-time1">
+                    <div class="currentlog1">
+                        <p>|</p>
+                    </div>
+                </div>
+                <div class="daily-time">
+                    <div class="time-log">
+                        <p id="timelog0" class="error-validation" >11 AM</p>
+                    </div>
+                    <div class="currentlog">
+                        <p>|</p>
+                    </div>
+                    <div class="weather-imgs">
+                        <img Id="current-image0" class="weather-img" src="./Assets/HTML_&_CSS/Weather_Icons/rainyIcon.svg">
+                    </div>
+                    <div class="time-actual">
+                        <p Id="time0" class="error-validation" >7</p>
+                    </div>
+                </div>
+                <div class="daily-time1">
+                    <div class="currentlog1">
+                        <p>|</p>
+                    </div>
+                </div>
+                <div class="daily-time">
+                    <div class="time-log">
+                        <p id="timelog1" class="error-validation" >12 PM</p>
+                    </div>
+                    <div class="currentlog">
+                        <p>|</p>
+                    </div>
+                    <div class="weather-imgs">
+                        <img Id="current-image1" class="weather-img" src="./Assets/HTML_&_CSS/Weather_Icons/windyIcon.svg">
+                    </div>
+                    <div class="time-actual">
+                        <p Id="time1" class="error-validation" >7</p>
+                    </div>
+                </div>
+                <div class="daily-time1">
+                    <div class="currentlog1">
+                        <p>|</p>
+                    </div>
+                </div>
+                <div class="daily-time">
+                    <div class="time-log">
+                        <p id="timelog2" class="error-validation" >1 PM</p>
+                    </div>
+                    <div class="currentlog">
+                        <p>|</p>
+                    </div>
+                    <div class="weather-imgs">
+                        <img Id="current-image2" class="weather-img" src="./Assets/HTML_&_CSS/Weather_Icons/rainyIcon.svg">
+                    </div>
+                    <div class="time-actual">
+                        <p Id="time2" class="error-validation" >8</p>
+                    </div>
+                </div>
+                <div class="daily-time1">
+                    <div class="currentlog1">
+                        <p>|</p>
+                    </div>
+                </div>
+                <div class="daily-time">
+                    <div class="time-log">
+                        <p id="timelog3" class="error-validation" >2 PM</p>
+                    </div>
+                    <div class="currentlog">
+                        <p>|</p>
+                    </div>
+                    <div class="weather-imgs">
+                        <img Id="current-image3" class="weather-img" src="./Assets/HTML_&_CSS/Weather_Icons/windyIcon.svg">
+                    </div>
+                    <div class="time-actual">
+                        <p Id="time3" class="error-validation" >8</p>
+                    </div>
+                </div>
+                <div class="daily-time1">
+                    <div class="currentlog1">
+                        <p>|</p>
+                    </div>
+                </div>
+                <div class="daily-time">
+                    <div class="time-log">
+                        <p id="timelog4" class="error-validation" >3 PM</p>
+                    </div>
+                    <div class="currentlog">
+                        <p>|</p>
+                    </div>
+                    <div class="weather-imgs">
+                        <img Id="current-image4" class="weather-img" src="./Assets/HTML_&_CSS/Weather_Icons/cloudyIcon.svg">
+                    </div>
+                    <div class="time-actual">
+                        <p Id="time4" class="error-validation" >6</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="total-second-container" id="">
+            <div class="scroll-option">
+                <div id="scroll1" class="scroll-option1">
+                    <p class="scroll-content"><</p>
+                </div>
+            </div>
+            <div class="second-container">
+                <div class="totalsecond-container-header">
+                    <div class="secondcontainer-header">
+                        <div class="headerflex-topcities">
+                        <span class="centralsecond-containerheader">Top cities around World </span>
+                        </div> 
+                        <div class="secondcontainer-icons">                           
+                                <div id="icon1" class="icon1">
+                                    <img class="icon11" src="./Assets/HTML_&_CSS/Weather_Icons/sunnyIcon.svg">   
+                                </div>
+                                &nbsp;
+                                <div id="icon2" class="icon2">
+                                    <img class="icon22" src="./Assets/HTML_&_CSS/Weather_Icons/snowflakeIcon.svg"> 
+                                    </div>
+                                    &nbsp;
+                                <div id="icon3" class="icon3">
+                                    <img class="icon33" src="./Assets/HTML_&_CSS/Weather_Icons/rainyIcon.svg">
+                                </div>
+                                &nbsp;
+                                <div>
+                                    <p class="secondcontainer-headerelements">
+                                        Display Top           
+                                        <input style="width: 30px;border:transparent;background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),gray;color: white;" type="number" value="3" id="number-option" name="quantity" min="3" max="10"> </p>                     
+                                    </p>
+                                </div>
+                        </div>                                        
+                </div>
+            </div>
+                <div id="card-container" class="totalsecond-container-cards">                                
+                    <div id="total-cards" class="second-container-cards">
+                        <div id="city-card0" class="city-card1">
+                            <div id="city-card-image" class="city-card-imagediv">
+                            <div class="city-card-totalname1">
+                                <div class="city-card-name1">
+                                    <div class="city-card-currentname1">
+                                        <p id="middle-city-name">New Delhi</p>
+                                    </div>
+                                    <div class="city-card-currentname2">
+                                        <p id="middle-city-time">10:10 AM</span>
+                                    </div>   
+                                    <div class="city-card-currentname2">
+                                        <p id="middle-city-date">2-Mar-2020</span>
+                                    </div>                 
+                                </div>
+                                <div class="city-card-weather1">
+                                    <p><img id="middle-temp-icon" class="img-city-card-weather1" style="height: 25px;" src="./Assets/HTML_&_CSS/Weather_Icons/sunnyIcon.svg"><p id="middle-temperature">&nbsp;25&deg;C</p></p>
+                                </div>
+                            </div>
+                            <div class="city-card-image1">
+                                <div class="city-card-imagedetail1">
+                                    <div class="city-cardrow">
+                                        <div class="icon-image1"><img style="height: 20px;width:15px" src="./Assets/HTML_&_CSS/Weather_Icons/humidityIcon.svg"></div>
+                                        <div><p id="middle-humidity" style="padding-top:2px ;">&nbsp;53%</p></div>
+                                    </div>
+                                    <div class="city-cardrow">
+                                        <div class="icon-image1"><img style="height: 20px;width:15px" src="./Assets/HTML_&_CSS/Weather_Icons/precipitationIcon.svg"></div>
+                                        <div><p id="middle-precipitation" style="padding-top:2px ;">&nbsp;10%</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-option">
+                <div id="scroll2" class="scroll-option2">
+                    <p class="scroll-content">></p>
+                </div>
+            </div>
+        </div>
+    <div class="total-thirdcontainer">  
+    <div class="thirdcontainer">
+        <div class="thirdcontainer-header">
+            <div class="thirdcontainer-centralheader">
+                <p>Cities across Continents at a glance</p>
+            </div>
+            <div class="thirdcontainer-sortingicons">
+                <p>Continent name&nbsp;<img class="arrow-style" id="continent-arrow" style="height: 13px ; width: 11px;" src="./Assets/HTML_&_CSS/General_Images_&_Icons/arrowDown.svg"> &nbsp; temperature&nbsp;<img class="arrow-style" id="temperature-arrow" style="height: 13px ; width: 11px;" src="./Assets/HTML_&_CSS/General_Images_&_Icons/arrowUp.svg"></p>
+            </div>
+        </div>
+        <div id="thirdcontainer-city" class="thirdcontainer-citydetails">
+            <div id="continent-box0" class="citydetail-box0">
+                    <div class="citydetail-box1">
+                        <div class="content-box">
+                            <p id="thirdcontainer-continent" style="height: 25px;font-size: 18px;color: rgb(184, 169, 36);">Asia</p>
+                            <p id="thirdcontainer-country" style="font-size: 18px;color: #FeFeFe;">Delhi,10:10 AM</p>
+                        </div>
+                        <div class="content-box1">
+                            <h3 id="thirdcontainer-temperature"> 32&deg;C</h3>
+                            <div class="city-cardrow">
+                                <div><img style="height: 20px;width:15px" src="./Assets/HTML_&_CSS/Weather_Icons/humidityIcon.svg"></div>
+                                <div><p id="thirdcontainer-humidity" style="padding-top:2px ;">&nbsp;53%</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </div>   
+</div>  
+</div>
+<script  src="httprequestscript.js"></script>
+<script  src="topsectionscript.js"></script>
+<script  src="bottomsectionscript.js"></script>
+<script  src="middlesectionscript.js"></script>
+</body>
+</html>

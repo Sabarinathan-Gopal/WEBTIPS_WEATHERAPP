@@ -1,0 +1,17 @@
+{
+  "name": "web-tips-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sabarinathan_gopal_npm_timezone_package": "^1.0.0"
+  }
+}

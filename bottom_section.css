@@ -1,0 +1,118 @@
+@media screen and (max-width:1313px)
+{
+    p.date-log1{
+        font-size:30px;
+    }
+    div.thirdcontainer-centralheader{
+        font-size: 23px;
+    }
+    div.thirdcontainer-sortingicons{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:970px)
+{
+    div.thirdcontainer-centralheader{
+        font-size: 18px;
+    }
+    div.thirdcontainer-sortingicons{
+        font-size: 15px;
+    }  
+}
+@media screen and (max-width:765px)
+{    
+    div.thirdcontainer-centralheader{
+        font-size: 13px;
+    }
+    div.thirdcontainer-sortingicons{
+        font-size: 11px;
+    }
+}
+.total-thirdcontainer{
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.thirdcontainer{
+    height :auto;
+    width: 86%;
+    height:auto;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.thirdcontainer-header{
+    height:20%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 10px;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.thirdcontainer-centralheader{
+    width:50%;
+    padding-left: 14px;
+    color: #FeFeFe;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.thirdcontainer-sortingicons{
+    color: #FeFeFe;
+    padding-right: 14px;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 20px;
+    justify-content: center;  
+}
+.thirdcontainer-citydetails{
+    display: grid;
+    grid-auto-rows: 100px;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 0fr));
+}
+
+.citydetail-box0{
+    height:140px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.citydetail-box1:hover{
+    background: linear-gradient(rgba(27, 26, 26, 0.5), rgba(27, 26, 26, 0.5));  
+}
+.citydetail-box1{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),gray;
+    height:60%;
+    width:95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-box{
+    width:70%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    padding-left: 20px;  
+    }
+.content-box1{
+        width:30%;
+        color: #FeFeFe;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }

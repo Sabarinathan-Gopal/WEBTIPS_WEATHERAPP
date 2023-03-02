@@ -1,0 +1,413 @@
+@media screen and (max-width: 1313px) {
+  div.scroll-option1 {
+    height: 40px;
+    width: 40px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  div.scroll-option2 {
+    height: 40px;
+    width: 40px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  img.icon11 {
+    height: 25px;
+    width: 25px;
+  }
+  img.icon22 {
+    height: 25px;
+    width: 25px;
+  }
+  img.icon33 {
+    height: 25px;
+    width: 25px;
+  }
+  img.icon2 {
+    height: 25px;
+    width: 25px;
+  }
+  span.centralsecond-containerheader {
+    font-size: 22px;
+    color: #fefefe;
+  }
+  p.secondcontainer-headerelements {
+    font-size: 20px;
+  }
+  div.city-card-imagediv {
+    background-size: 170px;
+  }
+  div.city-card-currentname2 {
+    font-size: 16px;
+  }
+  div.city-card-currentname1 {
+    font-size: 20px;
+  }
+  div.city-card-weather1 {
+    font-size: 25px;
+  }
+  img.Img_city-card-weather1 {
+    height: 25px;
+    width: 25px;
+  }
+  div.city-cardrow {
+    font-size: 16px;
+    width: 80px;
+  }
+  p.Date-log1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 970px) {
+  img.weather-img {
+    background-size: 10px;
+    height: 10px;
+    width: 20px;
+  }
+  img.weather-img {
+    height: 14px;
+    width: 14px;
+  }
+  img.icon11 {
+    height: 23px;
+    width: 23px;
+  }
+  img.icon22 {
+    height: 23px;
+    width: 23px;
+  }
+  img.icon33 {
+    height: 23px;
+    width: 23px;
+  }
+  img.icon2 {
+    height: 20px;
+    width: 20px;
+  }
+  span.centralsecond-containerheader {
+    font-size: 20px;
+    color: #fefefe;
+  }
+  p.secondcontainer-headerelements {
+    font-size: 18px;
+  }
+  div.city-card-currentname2 {
+    font-size: 14px;
+  }
+  div.city-card-currentname1 {
+    font-size: 18px;
+  }
+  div.city-card-weather1 {
+    font-size: 25px;
+    display: flex;
+    align-items: baseline;
+  }
+  div.city-card-imagediv {
+    background-size: 170px;
+  }
+
+  div.scroll-option1 {
+    height: 30px;
+    width: 30px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  div.scroll-option2 {
+    height: 30px;
+    width: 30px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  div.city-card1 {
+    min-width: 240px;
+  }
+}
+@media screen and (max-width: 765px) {
+  img.weather-img {
+    height: 14px;
+    width: 14px;
+  }
+  img.icon11 {
+    height: 20px;
+    width: 20px;
+  }
+  img.icon22 {
+    height: 20px;
+    width: 20px;
+  }
+  img.icon33 {
+    height: 20px;
+    width: 20px;
+  }
+  img.icon2 {
+    height: 25px;
+    width: 25px;
+  }
+  span.centralsecond-containerheader {
+    font-size: 18px;
+    color: #fefefe;
+  }
+  p.secondcontainer-headerelements {
+    font-size: 12px;
+  }
+  div.scroll-option1 {
+    height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  div.scroll-option2 {
+    height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  div.city-card1 {
+    min-width: 225px;
+  }
+}
+.total-second-container {
+  height: 60%;
+  width: 100%;
+  margin-top: -10px;
+  background-color: #121212;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.city-card-imagediv {
+  background: url("./Assets/HTML_&_CSS/Icons_for_cities/maseru.svg");
+  background-position-x: right;
+  background-position-y: bottom;
+  background-size: 65%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+.centralsecond-containerheader {
+  font-size: 24px;
+  color: #fefefe;
+}
+.scroll-option {
+  height: 100%;
+  width: 7%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.scroll-option1 {
+  height: 50px;
+  width: 50px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.scroll-option2 {
+  height: 50px;
+  width: 50px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.scroll-content {
+  padding-bottom: 9px;
+  cursor: pointer;
+  user-select: none;
+}
+.second-container {
+  height: 100%;
+  width: 85%;
+  background-color: #121212;
+  display: flex;
+  flex-direction: column;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.totalsecond-container-header {
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fefefe;
+}
+.secondcontainer-header {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+.secondcontainer-headerelements {
+  padding: 10px;
+}
+.secondcontainer-icons {
+  width: 43%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.totalsecond-container-cards {
+  height: 79%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.second-container-cards {
+  height: 95%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.city-card1{
+  min-width: 267px;
+  background: linear-gradient(rgba(51, 49, 49, 0.5), rgba(41, 38, 38, 0.5));
+  margin: 10px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  color: #fefefe;
+  box-shadow:10px 10px 5px #303030;
+}
+.city-card1:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), gray;
+  box-shadow:10px 10px 5px #121212;
+}
+.icon1{
+  border-color: #00c0f1;
+}
+.icon2{
+  border-color: #00c0f1;
+}
+.icon3{
+  border-color: #00c0f1;
+}
+.icon1:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), gray;
+}
+.icon2:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), gray;
+
+}
+.icon3:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), gray;
+}
+.city-card-totalname1 {
+  height: 40%;
+  padding-left: 8px;
+  padding-top: 8px;
+  display: flex;
+  flex-direction: row;
+}
+.city-card-name1 {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.city-card-currentname1 {
+  height: 40%;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  font-weight: normal;
+}
+.city-card-currentname2 {
+  height: 30%;
+  font-weight: normal;
+  font-size: 18px;
+}
+.city-card-weather1 {
+  display: flex;
+  align-items: top;
+  justify-content: flex-start;
+  font-size: 30px;
+}
+.city-card-image1 {
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+}
+.city-card-imagedetail1 {
+  width: 30%;
+  font-size: 18px;
+  padding-left: 8px;
+}
+.city-cardrow {
+  display: flex;
+  flex-direction: row;
+  height: 30%;
+}
+.icon-image1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.headerflex-topcities {
+  width: 62%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
