@@ -164,9 +164,9 @@ function errorDisplay() {
   for (let valuei = 0; valuei < errorItem.length; valuei++) {
     errorItem[valuei].innerHTML = "NIL";
   }
-  for (let valuei = 0; valuei < errorImage.length; i++) {
-    errorImage[valuei].src =
-      "./Assets/HTML & CSS/General Images & Icons/warning.svg";
+  for (let i = 0; i < errorImage.length; i++) {
+    errorImage[i].src =
+      "./Assets/HTML_&_CSS/General_Images_&_Icons/warning.svg";
   }
   document.getElementById("value-style1").innerText = "";
   document.getElementById("value-style2").innerText = "";
@@ -252,7 +252,6 @@ const topSector = async (cities, indValue) => {
       new Date(currentTimezone).getSeconds() < 10
         ? "0" + new Date(currentTimezone).getSeconds()
         : new Date(currentTimezone).getSeconds();
-    console.log(currenTime + " " + currentSeconds + " " + currentTimezone);
   }
   mytimer();
   clearInterval(timer);
